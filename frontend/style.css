@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
