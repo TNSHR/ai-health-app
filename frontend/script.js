@@ -3,7 +3,7 @@ async function predict() {
 
     let data = input.split(",").map(Number);
 
-    let response = await fetch("http://127.0.0.1:8000/predict", {
+    let response = await fetch("https://ai-health-app-a0fk.onrender.com/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
